@@ -1,4 +1,5 @@
 function R=getR(Z,S)
+% Credit for this code goes to my Advisor: Zhexuan Gong
 % The N-spin basis (S1,S2,...SN) to linear basis conversion for spin S
 % Each row of Z contains a N-spin basis.
 % Z can have arbitrary rows for conversion all at once
