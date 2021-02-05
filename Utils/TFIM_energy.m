@@ -1,4 +1,8 @@
 function exact_energy=TFIM_energy(N,v_list)
+% Computes the analytical ground state energy of the TFIM as derived here:
+% Suzuki, S., Inoue, J. I., & Chakrabarti, B. K. (2012). 
+% Quantum Ising phases and transitions in transverse 
+% Ising models (Vol. 862). Springer.
 
 exact_energy=zeros([max(size(v_list)),1]);
 for i=1:max(size(v_list))
