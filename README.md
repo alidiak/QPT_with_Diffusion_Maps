@@ -4,4 +4,4 @@ https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.225701. Unfortunat
 
 The Exact_Diagonalization folder contains ED simulations of quantum-many-body models and will use the generated samples to perform diffusion maps (among other unsupervised dimension reduction and clustering techniques such as PCA and autoencoders with k-means). The MPS_Postprocessing uses a set of optimized MPS, draws samples, and performs diffusion maps. The Utils folder contains the supporting functions used for ED, MPS processing, dimension reduction, clustering, and plotting.
 
-The Edgemats folder contains a Mathematica notebook that generates the adjacency matrices for certain lattices. 
+The Edgemats folder contains a Mathematica notebook that generates the adjacency matrices for certain lattices, which can be used to simulate a quantum many-body model on the lattice.
