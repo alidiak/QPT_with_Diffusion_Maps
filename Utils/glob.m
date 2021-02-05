@@ -1,4 +1,5 @@
 %% Expand wildcards for files and directory names
+%   NOT MY WORK, SOURCE: 
 %
 %   Pattern matching of file and directory names, based on wildcard
 %   characters. This function is similar to wildcard expansion performed by
