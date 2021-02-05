@@ -1,4 +1,6 @@
 function [M, I] = permn(V, N, K)
+% NOT MY WORK, SOURCE: https://www.mathworks.com/matlabcentral/fileexchange/7147-permn
+% Credit: Jos
 % PERMN - permutations with repetition
 %   Using two input variables V and N, M = PERMN(V,N) returns all
 %   permutations of N elements taken from the vector V, with repetitions.
