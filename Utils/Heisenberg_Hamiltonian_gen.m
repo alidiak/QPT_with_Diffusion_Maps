@@ -1,4 +1,5 @@
 function [H,chi,H_2]=Heisenberg_Hamiltonian_gen(N,adjmat,Z,S, varargin)
+% Modified version of code originally by my Advisor: Zhexuan Gong
 %Lanczos diagonalization of H=sum_{<m n>}(X_m*X_n+Y_m*Y_n+Z_m*Z_n)
 %Can restrict to spin-K subspace. Runtime and memory roughly scales as DK*N^2
 %This is the shortest and easiest code, with slower sparse H generation
