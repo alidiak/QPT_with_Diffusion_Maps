@@ -10,6 +10,7 @@
 % end
 
 function Z=getZ(N,S)
+% Modified code originally by my Advisor: Zhexuan Gong
 %The linear-spin basis conversion. Tested to be the Fastest algorithm on matlab
 %Z(:,m) is the diagonal elements of spin operator Z_m
 
