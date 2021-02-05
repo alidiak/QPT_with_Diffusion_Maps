@@ -1,4 +1,5 @@
 function fig=setfig(FontSize,XLabel,XLog,YLabel,YLog,Title, show)
+% Code given to me by my Advisor: Zhexuan Gong
 % Universal script for setting up figure for exporting to pdf/eps
     set(0,'DefaultAxesFontSize',FontSize);
     set(0,'DefaultAxesFontName','Times'); 
